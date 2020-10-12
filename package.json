@@ -1,0 +1,22 @@
+{
+  "name": "tree-sitter-mcore",
+  "version": "0.0.1",
+  "description": "A MCore grammmar for node-tree-sitter",
+  "main": "index.js",
+  "keywords": [
+    "parser",
+    "lexer"
+  ],
+  "scripts": {
+    "build": "tree-sitter generate && node-gyp build",
+    "test": "tree-sitter test"
+  },
+  "author": "Oscar Eriksson",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.14.1"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.16.8"
+  }
+}
